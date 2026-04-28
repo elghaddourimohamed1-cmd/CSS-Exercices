@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.centeradiv {
+    border: solid;
+    box-shadow: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    
+}
+.mainContent {
+    /* margin: 20px; */
+    height: 100vh;
+    width: 100wv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.static-rmg.be/a/view/q75/w1600/h836/f50.00,50.00/5668760/unnamed-file-jpg.jpg);
+}

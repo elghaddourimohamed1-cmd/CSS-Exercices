@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: hsl(0deg 0% 13.33%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    /* text-decoration: none; */
+}
+.nav {
+    text-decoration: none;
+    margin: 10px;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+}
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: orange;
+    padding: 0px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+/* basic styling section */
+.main {
+    background-color: hsl(0deg 0% 95.69%);
+    padding: 20px 250px;
+}
+
+section {
+    background-color: hsl(0deg 0% 100%);
+    margin: 15px;
+    border: 1px hsl(0deg 0% 89.02%) solid;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+section h1 {
+    text-align: center;
+    color: hsl(38.82deg 100% 50%);
+    padding: 20px;
+}
+section p {
+    padding: 20px;
+}
+
+/* images section  */
+img {
+    height: 200px;
+    width: 300px;
+    border: solid black 2px;
+    margin: 30px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+/* List section  */
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding: 40px;
+}
+
+/* special card styling  */
+.specialcard {
+    background-color: hsl(0deg 0% 98.04%);
+    border-left: solid hsl(38.82deg 100% 50%) 5px;
+}
+.btn {
+    background-color: hsl(39, 79%, 71%);
+    margin: 20px;
+    height: 40px;
+    width: 60px;
+    text-decoration: none;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: hsl(38.82deg 100% 50%);
+    color: white;
+}
+
+/* complex section  */
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.box1, .box2, .box3 {
+    background-color: hsl(0deg 0% 86.67%);
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.foo {
+    background-color: hsl(0deg 0% 95.69%);;
+    padding: 20px;
+}
+
+/* <!-- #############################correction###############################
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.theHead {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-a {
+    color: white;
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.list-a:hover {
+    color: orange;
+}
+
+.mainContent {
+    background-color: rgb(88, 79, 79);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FirstSection {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+
+}
+
+.FirsteSectionTitle {
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SecondSection {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.SecondSectionTitle {
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thirdsection {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 10 auto;
+
+
+}
+
+.foto {
+    width: 200px;
+    height: 100px;
+}
+
+
+.ThirdTitle {
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.FourthSection {
+    background-color: white;
+    justify-content: center;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+
+.titleListe {
+    text-align: center;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.fifthSection {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+    border-left: 5px orange solid;
+}
+
+.titre {
+    color: orange;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sixth-section {
+    background-color: white;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+
+.secondImage {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.sixth-title {
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.secondImage-img {
+    width: 300px;
+    border: solid black 2px;
+}
+.ClickMe {
+    background-color: orange;
+    padding: 11px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.ClickMe:hover{
+    background-color:orangered;
+}
+.SevenSection{
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+.LastTitle{
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    
+}
+.box1{
+    background-color: gray;
+    padding: 40px;
+    border: solid 2px ;
+
+
+}
+.foot{
+    background-color:rgb(88, 79, 79) ;
+    padding: 20px;
+} */
+
