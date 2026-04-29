@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.HeaderSection {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    padding: 0px 70px;
+}
+.SharedStyling {
+    border: 1px solid hsl(0deg 0% 81.18%);
+    background-color: rgb(255, 255, 255);
+}
+p {
+    margin: 10px 0px;
+}
+.FirstDivision {
+    margin: 20px 0px;
+    padding: 15px;
+}
+.SecondDivision {
+    margin-left: 30px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.ThirdDivision {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.FourthDivision {
+    border: 2px solid black ;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.FifthDivision {
+    margin: 10px;
+    padding: 20px 0px 10px 0px;
+}
+.SixthDivision {
+    align-self: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.SeventhDivision {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.SeventhDivision:hover {
+    background-color: rgb(187, 164, 120);
+}
+.EighthDivision {
+    text-align: right;
+    line-height: 3;
+    margin-bottom: 10px;
+}
+.NinthDivision {
+    margin-left: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.TenthDivision {
+    width: 400px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.foo {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

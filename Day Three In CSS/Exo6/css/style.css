@@ -1,0 +1,103 @@
+/* Responsive starter */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+p {
+    background-color: red;
+    width: 49vw;
+    /* height: 70px; */
+    color: white;
+    /* font-size: 20px; */
+}
+.first{
+    display: flex;
+}
+.suboneparagraph {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fchild {
+    margin-right: 10px;
+    /* gap: 10px; */
+}
+.subtwo {
+    width: 50vw;
+}
+.subtwoparagraph {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtwop {
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    display: flex;
+    gap: 10px;
+    width: 50vw;
+}
+.parent2 {
+    display: flex;
+}
+.second4child {
+    /* width: 25vw; */
+    margin-right: 10px;
+}
+.second4childp {
+    height: 242px;
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second5child {
+    /* width: 25vw; */
+}
+.second5childp {
+    height: 242px;
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* this is third section  */
+.third {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.thirdsectionparent1 {
+    display: flex;
+    /* flex-direction: row;
+    width: 10vw; */
+}
+.thirdchild {
+    display: flex;
+    flex-direction: row;
+    width: 117px;
+    margin-right: 10px;
+}
+.thirdsectionparagraph {
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third5child {
+    margin-right: 0px;
+}
+.third6and7childp {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
