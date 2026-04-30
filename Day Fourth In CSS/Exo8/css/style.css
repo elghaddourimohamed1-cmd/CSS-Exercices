@@ -1,0 +1,73 @@
+/* Responsive starter */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(188, 186, 186);
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 200px;
+    height: 210px;
+    padding: 10px;
+    background-color: rgb(102, 101, 128);
+    margin-top: 20px;
+    box-shadow: rgba(4, 199, 10, 0.4) 0px 30px 90px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.div1:hover{
+    box-shadow: rgba(31, 2, 196, 0.4) 0px 30px 90px;
+    color: greenyellow;
+    transform: scaleY(1.2) scaleX(1.2);
+    border: greenyellow 2px solid;
+}
+.fas{
+    display: flex;
+    font-size: 60px;
+    align-self: center;
+}
+.fa-user{
+    display: flex;
+    font-size: 60px;
+    align-self: center;
+}
+.fa-brands{
+    display: flex;
+    font-size: 60px;
+    align-self: center;}
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+}
+.section5{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 99px;
+}
+.section6{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 99px;
+}
+.section7{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 99px;
+}

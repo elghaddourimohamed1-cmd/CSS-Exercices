@@ -1,0 +1,64 @@
+/* Responsive starter */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* <!-- section one  --> */
+.firstsectionparagraph {
+    background-color: rgb(210, 105, 30);
+    /* padding: 10px; */
+    width: 99vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+/* <!-- section two  --> */
+.secondsection {
+    display: flex;
+}
+.SecondDivision {
+    background-color: rgb(210, 105, 30);
+    width: 49.3vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+/* <!-- section tree  --> */
+.thirdsection {
+    display: flex;
+    /* gap: 5px; */
+
+}
+.thirdsectionparagraph {
+    background-color: rgb(210, 105, 30);
+    padding: 20px;
+    width: 29.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+/* <!-- section four  --> */
+.fourthsection {
+    display: flex;
+}
+.fourthsectionparagraph {
+    background-color: rgb(210, 105, 30);
+    padding: 20px;
+    width: 4.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
