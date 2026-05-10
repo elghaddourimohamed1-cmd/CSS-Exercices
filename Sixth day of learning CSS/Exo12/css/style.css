@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #050a1d, #0e1f5b);
+    background-repeat: no-repeat;
+}
+.main-content {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 136px;
+    flex: 1;
+}
+.search-bar {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #1f2535;
+    border: none;
+}
+.search-bar h2 {
+        margin-left: -35px;
+}
+input[type="text"] {
+    padding: 15px 190px;
+    border-radius: 12px;
+    background-color: #1f2535;
+    border: none;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+svg.settings{
+    background: transparent;
+    color: #f35c55;
+    margin-right: 25px;
+    height: 40px;
+}
+.search-bar svg.settings{
+    padding: 14px;
+    margin-right: 25px;
+}
+.search-bar svg{
+    padding: 14px;
+    margin-right: 25px;
+}
+svg.claire-and-dark {
+    background: #2e364d;
+    height: 30px;
+    width: 50px;
+    padding: 10px;
+}
+.svg-inline--fa {
+    box-sizing: content-box;
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    width: var(--fa-width, 1.25em);
+}
+.toggle-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.toggle-options .top-toggle-btn {
+    display: flex;
+    gap: 10px;
+    
+}
+.top-toggle-btn button {
+    padding: 12px 18px;
+    border-radius: 25px;
+    background-color: #1f2535;
+    border: none;
+    border: 1px solid #43495e;
+    color: white;
+}
+.top-toggle-btn button:focus {
+    padding: 8px 15px;
+    border-radius: 25px;
+    outline: none; /* removes default browser ring */
+    background-color: #f35c55;
+    transform: scale(0.98);
+}
+/*todo cards section  */
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.icon-title-description {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 5px;
+}
+svg {
+    background-color: #bfd9bd;
+    padding: 10px;
+    border-radius: 5px;
+    color: #050a1d;
+    height: 50px;
+    width: 100px;
+}
+svg.bluesvg {
+    background-color: #a8d6e4;
+}
+svg.redsvg {
+    background-color: #ffcfd2;
+}
+.cards .card {
+    background-color: #1f2535;
+    padding: 12px;
+    border-radius: 15px;
+    flex: 1;
+    border: 1px solid #43495e;
+
+}
+.cards .card .fa-terminal {
+    background-color: #bfd9bd;
+    padding: 25px;
+    border-radius: 5px;
+    color: #050a1d;
+    height: 20%;
+}
+.title-description {
+    margin-top: -18px;
+}
+.title-description p {
+    margin-top: -10px;
+    color: #848692;
+    font-size: 15px;
+}
+.remove-and-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.remove-and-toggle .rm-btn {
+    padding: 8px 15px;
+    border-radius: 25px;
+    background-color: #1f2535;
+    border: none;
+    border: 1px solid #43495e;
+    color: white;
+}
+.empty-section {
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toggle-btn {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    background: #1f2535;
+}
+.toggle {
+    /* width: 60px; */
+    width: 38px;
+    /* height: 30px; */
+    height: 20px;
+    background: #f35c55;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle::before {
+    content: "";
+    position: absolute;
+    /* top: 2px; */
+    /* left: 2px; */
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+input {
+    display: none;
+}
+input:checked + .toggle {
+    background: #525868;
+}
+input:checked + .toggle::before {
+    left: 18px;
+}

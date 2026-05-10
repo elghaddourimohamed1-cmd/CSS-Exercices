@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS exercises Exo12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_onscreen" />
+    <script src="https://kit.fontawesome.com/8c87f55756.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--todo search bar  -->
+    <main class="main-content">
+        <section class="search-bar">
+            <svg class="settings" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                fill="#f35c55">
+                <path
+                    d="m382-80-18.67-126.67q-17-6.33-34.83-16.66-17.83-10.34-32.17-21.67L178-192.33 79.33-365l106.34-78.67q-1.67-8.33-2-18.16-.34-9.84-.34-18.17 0-8.33.34-18.17.33-9.83 2-18.16L79.33-595 178-767.67 296.33-715q14.34-11.33 32.34-21.67 18-10.33 34.66-16L382-880h196l18.67 126.67q17 6.33 35.16 16.33 18.17 10 31.84 22L782-767.67 880.67-595l-106.34 77.33q1.67 9 2 18.84.34 9.83.34 18.83 0 9-.34 18.5Q776-452 774-443l106.33 78-98.66 172.67-118-52.67q-14.34 11.33-32 22-17.67 10.67-35 16.33L578-80H382Zm55.33-66.67h85l14-110q32.34-8 60.84-24.5T649-321l103.67 44.33 39.66-70.66L701-415q4.33-16 6.67-32.17Q710-463.33 710-480q0-16.67-2-32.83-2-16.17-7-32.17l91.33-67.67-39.66-70.66L649-638.67q-22.67-25-50.83-41.83-28.17-16.83-61.84-22.83l-13.66-110h-85l-14 110q-33 7.33-61.5 23.83T311-639l-103.67-44.33-39.66 70.66L259-545.33Q254.67-529 252.33-513 250-497 250-480q0 16.67 2.33 32.67 2.34 16 6.67 32.33l-91.33 67.67 39.66 70.66L311-321.33q23.33 23.66 51.83 40.16 28.5 16.5 60.84 24.5l13.66 110Zm43.34-200q55.33 0 94.33-39T614-480q0-55.33-39-94.33t-94.33-39q-55.67 0-94.5 39-38.84 39-38.84 94.33t38.84 94.33q38.83 39 94.5 39ZM480-480Z" />
+            </svg>
+            <h2>Extentions</h2>
+            <input type="text">
+            <svg class="claire-and-dark" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                width="40px" fill="#fff">
+                <path
+                    d="M446.67-766.67V-920h66.66v153.33h-66.66ZM706-659.33l-46.33-46.34 108-109.66 46.66 47.66L706-659.33Zm60.67 212.66v-66.66H920v66.66H766.67ZM446.67-40v-153.33h66.66V-40h-66.66ZM253.33-660.67l-108-107 47-46.66L300.67-706l-47.34 45.33ZM768-145.33l-108.33-109L705-299.67l110 106-47 48.34ZM40-446.67v-66.66h153.33v66.66H40Zm153 301.34-47.33-47L253-299.67l24.33 22.34L301.67-254 193-145.33ZM310-310q-70-70-70-170t70-170q70-70 170-70t170 70q70 70 70 170t-70 170q-70 70-170 70t-170-70Zm292.67-47.33Q653.33-408 653.33-480t-50.66-122.67Q552-653.33 480-653.33t-122.67 50.66Q306.67-552 306.67-480t50.66 122.67Q408-306.67 480-306.67t122.67-50.66ZM480-480Z" />
+            </svg>
+        </section>
+        <section class="toggle-options">
+            <div class="heading">
+                <h2>Extensions List</h2>
+            </div>
+            <div class="top-toggle-btn">
+                <button autofocus>All</button><button>Active</button><button>Inactive</button>
+            </div>
+        </section>
+        <!--todo section 1 cards  -->
+        <section class="cards">
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#1E124A">
+                        <path
+                            d="m621.33-360 36-35.33L570.67-482q11-17 17.83-35.57 6.83-18.57 6.83-39.1 0-57.66-39.83-97.16t-96.83-39.5q-57 0-96.84 39.55Q322-614.23 322-556.62q0 57.62 39.83 97.12 39.84 39.5 96.84 39.5 21.72 0 40.86-6.83 19.14-6.84 37.62-17.84L621.33-360ZM458.7-473.33q-34.37 0-58.87-24.47t-24.5-58.84q0-34.36 24.48-58.86t58.86-24.5q34 0 58.66 24.47Q542-591.06 542-556.7q0 34.37-24.47 58.87t-58.83 24.5ZM146.67-240q-27 0-46.84-19.83Q80-279.67 80-306.67v-466.66q0-27 19.83-46.84Q119.67-840 146.67-840h666.66q27 0 46.84 19.83Q880-800.33 880-773.33v466.66q0 27-19.83 46.84Q840.33-240 813.33-240H146.67Zm0-66.67h666.66v-466.66H146.67v466.66Zm0 0v-466.66 466.66ZM40-120v-66.67h880V-120H40Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>DevLens</h3>
+                        <p>quickly inspect page layouts and visualize element boundaries.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch">
+                        <label for="switch" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="bluesvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M600-160v-66.67h133.33v-506.66H600V-800h200v640H600Zm-440 0v-640h200v66.67H226.67v506.66H360V-160H160Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>StyleSpy</h3>
+                        <p>Instantly analyze and copy CSS from any webpage element.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch2">
+                        <label for="switch2" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="redsvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M475.67-307.83q41.66-1.17 61-30.84l218.66-338L420-456q-29 19.33-30.83 61-1.84 41.67 21.5 65 23.33 23.33 65 22.17Zm3-491.5q57.66 0 117.16 17.83t113.5 58.83l-60 40.67q-41-25.67-87.16-38.17-46.17-12.5-83.52-12.5-137.98 0-234.98 97.98t-97 237.35q0 44.01 12.16 88.34 12.17 44.33 34.5 82.33h570q22.34-36.66 34.5-82.33Q810-354.67 810-400q0-40-11.17-83.67-11.16-43.66-38.16-81.66l42-60Q838-572.33 856.5-517t20.17 112.33q1.66 59-12.34 111.67t-41 98.33q-11.66 21.34-27 28Q781-160 760.67-160H196q-18.33 0-35.67-9Q143-178 134-194.67q-26-47-40-96.83T80-397.33q0-83 31.5-156.17 31.5-73.17 85.67-127.67 54.16-54.5 126.95-86.33t154.55-31.83Zm-3.67 325Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>SpeedBoost</h3>
+                        <p>Optimizes browser resource usage to accelerate page loading.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch3">
+                        <label for="switch3" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--todo section 2 cards  -->
+        <section class="cards">
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#1E124A">
+                        <path
+                            d="m621.33-360 36-35.33L570.67-482q11-17 17.83-35.57 6.83-18.57 6.83-39.1 0-57.66-39.83-97.16t-96.83-39.5q-57 0-96.84 39.55Q322-614.23 322-556.62q0 57.62 39.83 97.12 39.84 39.5 96.84 39.5 21.72 0 40.86-6.83 19.14-6.84 37.62-17.84L621.33-360ZM458.7-473.33q-34.37 0-58.87-24.47t-24.5-58.84q0-34.36 24.48-58.86t58.86-24.5q34 0 58.66 24.47Q542-591.06 542-556.7q0 34.37-24.47 58.87t-58.83 24.5ZM146.67-240q-27 0-46.84-19.83Q80-279.67 80-306.67v-466.66q0-27 19.83-46.84Q119.67-840 146.67-840h666.66q27 0 46.84 19.83Q880-800.33 880-773.33v466.66q0 27-19.83 46.84Q840.33-240 813.33-240H146.67Zm0-66.67h666.66v-466.66H146.67v466.66Zm0 0v-466.66 466.66ZM40-120v-66.67h880V-120H40Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>JSONWizard</h3>
+                        <p>Formats, validates, and prettifies jSON responses in-browser.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch4">
+                        <label for="switch4" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="bluesvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M600-160v-66.67h133.33v-506.66H600V-800h200v640H600Zm-440 0v-640h200v66.67H226.67v506.66H360V-160H160Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>TabMaster Pro</h3>
+                        <p>Organizes browser tabs into groups and sessions.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch5">
+                        <label for="switch5" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="redsvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M475.67-307.83q41.66-1.17 61-30.84l218.66-338L420-456q-29 19.33-30.83 61-1.84 41.67 21.5 65 23.33 23.33 65 22.17Zm3-491.5q57.66 0 117.16 17.83t113.5 58.83l-60 40.67q-41-25.67-87.16-38.17-46.17-12.5-83.52-12.5-137.98 0-234.98 97.98t-97 237.35q0 44.01 12.16 88.34 12.17 44.33 34.5 82.33h570q22.34-36.66 34.5-82.33Q810-354.67 810-400q0-40-11.17-83.67-11.16-43.66-38.16-81.66l42-60Q838-572.33 856.5-517t20.17 112.33q1.66 59-12.34 111.67t-41 98.33q-11.66 21.34-27 28Q781-160 760.67-160H196q-18.33 0-35.67-9Q143-178 134-194.67q-26-47-40-96.83T80-397.33q0-83 31.5-156.17 31.5-73.17 85.67-127.67 54.16-54.5 126.95-86.33t154.55-31.83Zm-3.67 325Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>ViewportBuddy</h3>
+                        <p>Simulates various screen resolutions directly within the browser.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch6">
+                        <label for="switch6" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--todo section 3 cards  -->
+        <section class="cards">
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#1E124A">
+                        <path
+                            d="m621.33-360 36-35.33L570.67-482q11-17 17.83-35.57 6.83-18.57 6.83-39.1 0-57.66-39.83-97.16t-96.83-39.5q-57 0-96.84 39.55Q322-614.23 322-556.62q0 57.62 39.83 97.12 39.84 39.5 96.84 39.5 21.72 0 40.86-6.83 19.14-6.84 37.62-17.84L621.33-360ZM458.7-473.33q-34.37 0-58.87-24.47t-24.5-58.84q0-34.36 24.48-58.86t58.86-24.5q34 0 58.66 24.47Q542-591.06 542-556.7q0 34.37-24.47 58.87t-58.83 24.5ZM146.67-240q-27 0-46.84-19.83Q80-279.67 80-306.67v-466.66q0-27 19.83-46.84Q119.67-840 146.67-840h666.66q27 0 46.84 19.83Q880-800.33 880-773.33v466.66q0 27-19.83 46.84Q840.33-240 813.33-240H146.67Zm0-66.67h666.66v-466.66H146.67v466.66Zm0 0v-466.66 466.66ZM40-120v-66.67h880V-120H40Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>Markup Notes</h3>
+                        <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch7">
+                        <label for="switch7" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="bluesvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M600-160v-66.67h133.33v-506.66H600V-800h200v640H600Zm-440 0v-640h200v66.67H226.67v506.66H360V-160H160Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>GridGuides</h3>
+                        <p>Overlay customizable grids and alignment guides on any webpage.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch8">
+                        <label for="switch8" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="redsvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M475.67-307.83q41.66-1.17 61-30.84l218.66-338L420-456q-29 19.33-30.83 61-1.84 41.67 21.5 65 23.33 23.33 65 22.17Zm3-491.5q57.66 0 117.16 17.83t113.5 58.83l-60 40.67q-41-25.67-87.16-38.17-46.17-12.5-83.52-12.5-137.98 0-234.98 97.98t-97 237.35q0 44.01 12.16 88.34 12.17 44.33 34.5 82.33h570q22.34-36.66 34.5-82.33Q810-354.67 810-400q0-40-11.17-83.67-11.16-43.66-38.16-81.66l42-60Q838-572.33 856.5-517t20.17 112.33q1.66 59-12.34 111.67t-41 98.33q-11.66 21.34-27 28Q781-160 760.67-160H196q-18.33 0-35.67-9Q143-178 134-194.67q-26-47-40-96.83T80-397.33q0-83 31.5-156.17 31.5-73.17 85.67-127.67 54.16-54.5 126.95-86.33t154.55-31.83Zm-3.67 325Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>Palette Picker</h3>
+                        <p>Instantly extracts color palettes from any webpage.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch9">
+                        <label for="switch9" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--todo section 3 cards  -->
+        <section class="cards">
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#1E124A">
+                        <path
+                            d="m621.33-360 36-35.33L570.67-482q11-17 17.83-35.57 6.83-18.57 6.83-39.1 0-57.66-39.83-97.16t-96.83-39.5q-57 0-96.84 39.55Q322-614.23 322-556.62q0 57.62 39.83 97.12 39.84 39.5 96.84 39.5 21.72 0 40.86-6.83 19.14-6.84 37.62-17.84L621.33-360ZM458.7-473.33q-34.37 0-58.87-24.47t-24.5-58.84q0-34.36 24.48-58.86t58.86-24.5q34 0 58.66 24.47Q542-591.06 542-556.7q0 34.37-24.47 58.87t-58.83 24.5ZM146.67-240q-27 0-46.84-19.83Q80-279.67 80-306.67v-466.66q0-27 19.83-46.84Q119.67-840 146.67-840h666.66q27 0 46.84 19.83Q880-800.33 880-773.33v466.66q0 27-19.83 46.84Q840.33-240 813.33-240H146.67Zm0-66.67h666.66v-466.66H146.67v466.66Zm0 0v-466.66 466.66ZM40-120v-66.67h880V-120H40Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>LinkChecker</h3>
+                        <p>Scans and highlights broken links on any page.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch10">
+                        <label for="switch10" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="bluesvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M600-160v-66.67h133.33v-506.66H600V-800h200v640H600Zm-440 0v-640h200v66.67H226.67v506.66H360V-160H160Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>DOM Snapshot</h3>
+                        <p>Capture and export DOM structures quickly.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch11">
+                        <label for="switch11" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon-title-description">
+                    <svg class="redsvg" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                        width="40px" fill="#1E124A">
+                        <path
+                            d="M475.67-307.83q41.66-1.17 61-30.84l218.66-338L420-456q-29 19.33-30.83 61-1.84 41.67 21.5 65 23.33 23.33 65 22.17Zm3-491.5q57.66 0 117.16 17.83t113.5 58.83l-60 40.67q-41-25.67-87.16-38.17-46.17-12.5-83.52-12.5-137.98 0-234.98 97.98t-97 237.35q0 44.01 12.16 88.34 12.17 44.33 34.5 82.33h570q22.34-36.66 34.5-82.33Q810-354.67 810-400q0-40-11.17-83.67-11.16-43.66-38.16-81.66l42-60Q838-572.33 856.5-517t20.17 112.33q1.66 59-12.34 111.67t-41 98.33q-11.66 21.34-27 28Q781-160 760.67-160H196q-18.33 0-35.67-9Q143-178 134-194.67q-26-47-40-96.83T80-397.33q0-83 31.5-156.17 31.5-73.17 85.67-127.67 54.16-54.5 126.95-86.33t154.55-31.83Zm-3.67 325Z" />
+                    </svg>
+                    <div class="title-description">
+                        <h3>ConsolePlus</h3>
+                        <p>Enhanced developer console with advanced filtering and logging.</p>
+                    </div>
+                </div>
+                <div class="remove-and-toggle">
+                    <button class="rm-btn">Remove</button>
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="switch12">
+                        <label for="switch12" class="toggle"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="empty-section"></section>
+    </main>
+</body>
+
+</html>
