@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.headersection nav {
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-bottom: 2px hsl(0deg 0% 90.59%) solid;
+    height: 60px;
+}
+
+.logo h1 a {
+    color: hsl(233.86deg 100% 49.8%);
+    text-decoration: none;
+}
+
+.navlist ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    list-style: none;
+    cursor: pointer;
+    color: hsl(214.84deg 14.42% 42.16%);
+}
+/* .navlist ul :last-child {
+    color: black;
+} */
+.rightbtn {
+    display: flex;
+}
+
+.navlist {
+    color: hsl(214.84deg 14.42% 42.16%);
+}
+
+.contactbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightbtn i {
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbtn {
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.fa-globe {
+    color: hsl(233.86deg 100% 49.8%);
+    font-size: 20px;
+}
+
+.loginbtn {
+    background-color: transparent;
+    /* border: none; */
+    border: 3px solid hsl(233.86deg 100% 49.8%);
+    border-radius: 30px;
+    padding: 10px 20px;
+    /* height: 35px; */
+}
+
+/* <!--todo this is hero section  --> */
+.hero {
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herodiv {
+    text-align: center;
+}
+
+.firstp {
+    color: hsl(214.84deg 14.42% 42.16%);
+}
+
+.secondp {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.bluecolor {
+    color: hsl(233.86deg 100% 49.8%);
+}
+
+.bluecolor a {
+    color: hsl(233.86deg 100% 49.8%);
+}
+
+.thirdp {
+    color: hsl(214.84deg 14.42% 42.16%);
+    margin-bottom: 40px;
+}
+
+.reservebtn {
+    background-color: hsl(233.86deg 100% 49.8%);
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.tourbtn {
+    border-radius: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    background-color: hsl(218.18deg 13.58% 84.12%);
+    cursor: pointer;
+}
+
