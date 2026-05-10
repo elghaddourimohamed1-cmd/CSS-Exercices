@@ -1,0 +1,264 @@
+/* Responsive starter */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main-content {
+    background: linear-gradient(145deg , #141f31, #12256b);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: 30px;
+    color: white;
+    border-radius: 30px;
+    padding: 30px;
+    gap: 10px;
+    width: 50vw;
+    background-color: #283446;
+    box-shadow: 0px 0px 18px 13px rgba(0,0,0,0.75);
+}
+/* todo first name and last name   */
+.first-last-name {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.fname {
+    input[type="text"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    /* flex: 1; */
+    /* width: 100%; */
+}
+/* flex: 1; */
+}
+.fname {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.lname {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.lname {
+    input[type="text"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    /* flex: 1; */
+    /* width: 100%; */
+}
+/* flex: 1; */
+}
+/* .lname {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} */
+/* todo email  and age section  */
+.email {
+    input[type="text"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    /* flex: 1; */
+    /* width: 100%; */
+}
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+}
+.email-section {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%;   */
+    /* flex: 1;   */
+}
+
+/* todo password and age */
+.password-age {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.password {
+    input[type="text"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+flex: 1;
+}
+.password {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.age {
+    input[type="text"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+}
+.age {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+/* todo select country from options */
+.country {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+select {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/* todo select gender from options */
+.gender {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* todo text area for Message */
+.message {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    font-size: 15px;
+    margin-top: 10px;
+    gap: 10px;
+}
+textarea{
+
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/* todo file upload section */
+.upload {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    gap: 10px;
+}
+input[type="file"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #455061;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #236eac;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #008eff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: ease-in 0.5s;
+    transition: ease-out 0.5s;
+}

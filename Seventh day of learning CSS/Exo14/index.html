@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS exercises Exo14</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="main-content">
+    <form action="" class="form-content">
+        <h1>Registration Form</h1>
+        <!--todo first name and last name  -->
+        <div class="first-last-name">
+            <div class="fname">
+                <label for="firstname">First Name</label>
+                <input type="text" placeholder="Enter first name">
+            </div>
+            <div class="lname">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Enter last name">
+            </div>
+        </div>
+        <!--todo email  and age section  -->
+        <div class="email-section">
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter email">
+            </div>
+        </div>
+        <div class="password-age">
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="text" placeholder="Enter password">
+            </div>
+            <div class="age">
+                <label for="lastname">Age</label>
+                <input type="text" placeholder="Enter age">
+            </div>
+        </div>
+        <!--todo select country from options  -->
+        <div class="country">
+            <label for="country">Country</label>
+            <select name="country-select">
+                <option value="morocco">Morocco</option>
+                <option value="spain">Spain</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+        <!--todo select gender from options  -->
+        <div class="genders">
+            <label for="gender">Gender</label>
+            <div class="gender">
+            <input type="radio" name="gender"><label for="male">Male</label>
+            <input type="radio" name="gender"><label for="female">Female</label>
+            </div>
+        </div>
+        <!--todo select Skills from options  -->
+        <div class="skillss">
+            <label for="gender">Skills</label>
+            <div class="skills">
+            <input type="checkbox" name="html"><label for="html" name="html">HTML</label>
+            <input type="checkbox" name="css"><label for="css" name="css">CSS</label>
+            <input type="checkbox" name="js"><label for="js" name="js">JavaScript</label>
+        </div>
+        </div>
+                <!--todo text area for Message  -->
+        <div class="message">
+            <label for="message">Message</label>
+            <textarea rows="5" cols="93" name="message" placeholder="Write something..."></textarea>
+        </div>
+        <!--todo file upload section  -->
+        <div class="upload">
+            <label for="cv">Upload CV</label>
+            <input type="file" name="upload">
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</main>
+</body>
+</html>
