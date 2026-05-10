@@ -1,0 +1,195 @@
+/* Responsive starter */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 245, 241);
+}
+.container {
+    background-color: rgb(252, 252, 252);
+    margin: 30px 60px;
+    border-radius: 10px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding-top: 30px;
+}
+.logo a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.right-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.search input {
+    background-color: rgb(240, 244, 245);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: rgb(120, 119, 119);
+    padding-left: 50px;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile img {
+    height: 45px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    /* display: inline-block; */
+}
+/* todo sidebar */
+.main {
+    /* display: flex; */
+}
+.all-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 53px;
+    gap: 35px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    padding: 0px 40px
+}
+.text-content .welcoming {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.text-content :nth-child(2) {
+    color: #5dc3b1;
+    font-size: 30px;
+}
+.cta a {
+    color: rgb(249, 190, 31);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.svg-image img {
+    height: 400px;
+    width: 400px;
+}
+/*todo content  */
+.content {
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 8px;
+    padding: 40px;
+    margin: -42px 30px 84px;
+}
+.transactions {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    border: 1px solid rgb(233, 233, 233);
+}
+.heading-left .date {
+    color: rgb(105, 113, 124);
+}
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heading .number-of-transactions {
+    background-color: rgb(241, 240, 248);
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(105, 113, 124);
+}
+.heading-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.heading-rigth a {
+        color: rgb(249, 190, 31);
+}
+.heading-rigth p {
+        color: rgb(105, 113, 124);
+}
+/*todo brands and names details transactions  */
+.barnd-name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.details-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.details-row .brand-image img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.details-row .label-name .label {
+    color: rgb(105, 113, 124);
+}
+.amount-and-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.amount-and-time .transaction {
+    margin: 10px;
+    line-height: 8px;
+}
+.amount-and-time .transaction .time {
+    color: rgb(105, 113, 124);
+}
+.empty-box p {
+    border-radius: 5px;
+    height: 38px;
+    width: 38px;
+    background-color: rgb(241, 240, 248);
+}
+/* .View-all-transactions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+} */
+.view-all-transactions a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(249, 190, 31);
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+}
