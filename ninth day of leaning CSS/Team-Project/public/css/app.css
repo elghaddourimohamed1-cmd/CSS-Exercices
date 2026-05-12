@@ -1,0 +1,255 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo .underline {
+    border-bottom: 5px #ff3946 solid;
+}
+.navigation .logo a {
+    color: #314584;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navigation .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+.navigation .menu ul a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #314584;
+    text-decoration: none;
+}
+.navigation .menu ul a:hover{
+    color: red;
+}
+.navigation button {
+    background-color: #ffffff;
+    padding: 20px 55px;
+    color: red;
+    border: none;
+    box-shadow: 0px 10px 5px 0px rgba(28, 31, 33, 0.2);
+    cursor: pointer;
+}
+/* todo hero section  */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    height: 80vh;
+    margin: 50px 0px;
+    /* gap: 100px; */
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-right: 100px;
+}
+.content-container img {
+    height: 610px;
+    /* margin-left: 20px; */
+}
+.content-container h1 {
+    color: #314584;
+    font-size: 60px;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+.content-container p {
+    color: gray;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.content-container .btn {
+    margin-right: 30px;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: starts;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #ff3946;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+    
+a {
+    font-weight: 600; 
+}
+.btns .second-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: gray;
+}
+/* todo cards sections */
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    color: #314584;
+}
+.heading h2 {
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.second-section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px 0px;
+}
+.second-section .heading {
+    display: flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 45px;
+    box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+    color: #314584;
+    line-height: 28px;
+
+}
+.card img {
+height: 70px;
+    margin-bottom: 10px;
+}
+.card h2 {
+    margin-bottom: 15px;
+}
+/* todo contact us section  */
+.contact-us {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 20px 165px;
+}
+.contact-us .form-heading {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+.contact-us p {
+    display: flex;
+    justify-content: start;
+    color: #ff3946;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact-us h2 {
+    justify-content: start;
+    color: #314584;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.email-subject {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+input[type="email"] {
+    width: 50%;
+    background-color: #f4fafe;
+    padding: 20px;
+    border: none;
+}
+input[type="text"] {
+    width: 50%;
+    background-color: #f4fafe;
+    padding: 20px;
+    border: none;
+}
+textarea.text-area {
+    width: 100%;
+    height: 70px;
+    background-color: #f4fafe;
+    padding: 20px;
+    border: none;
+}
+/* todo footer section  */
+.foo {
+    background-color: #314584;
+    color: #ffffff;
+    text-align: center;
+}
+.footer-content {
+    width: 100%;
+}
+.footer-content h4{
+    padding: 20px;
+}
+.foo h1 {
+    font-size: 45px;
+    color: #ff3946;
+    margin: 10px 0 20px;
+}
+.foo ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    list-style: none;
+}
+footer ul li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.foo .social-links {
+    margin: 40px 0;
+}
+.foo .social-links a {
+    padding: 35px;
+    color: white;
+    font-size: 40px;
+}
